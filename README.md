@@ -7,3 +7,5 @@ This project is created using Maven archetype webapp to demonstrate the basics o
 * Use form parameters
 * Represent HTTP Reponse in XML/JSON formats
 * Create REST Client using Apache HttpComponents
+
+######Thank you for referring this.
