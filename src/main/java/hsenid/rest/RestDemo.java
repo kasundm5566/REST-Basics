@@ -29,7 +29,7 @@ public class RestDemo {
 
 	@GET
 	@Path("/students/{id}/{name}/{age}")
-	@Produces(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON) // use APPLICATION_XML to get data as XML
 	public Response getStudent(@PathParam("id") int id, @PathParam("name") String name, @PathParam("age") int age) {
 		Student student=new Student();
 		student.setId(id);
